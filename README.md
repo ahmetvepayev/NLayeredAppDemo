@@ -5,6 +5,6 @@
 + Used Northwind-Pubs sample database from [Microsoft sample SQL databases](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases).
 
 # NuGet Packages
-+ EntityFramework for object-relational mapping
-+ FluentValidation for validation
-+ Ninject for handling dependency injections
++ __EntityFramework__ for object-relational mapping
++ __FluentValidation__ for validation
++ __Ninject__ for handling dependency injections
