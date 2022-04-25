@@ -23,8 +23,7 @@ Simple Windows Forms application (.NET Framework) showcasing the use of multiple
 + Currently, the mapping is done with the help of EntityFramework
 + ***Note:*** NHibernate support is not implemented. The related class in the solution is placeholder
 
-***Click the image!***
-[<img src="https://i.imgur.com/oQC11bV.png">](Presentation/NLayeredAppDemo.html)
+![](https://i.imgur.com/oQC11bV.png)
 
 
 
@@ -45,6 +44,7 @@ Simple Windows Forms application (.NET Framework) showcasing the use of multiple
     - Unit price : decimal
     - Quantity per unit : string
     - Stock amount : Int16
+    - None of the fields can be empty
     - There may be additional rules enforced by validation. They can be changed anytime by editing [Northwind.Business/ValidationRules/FluentValidation/ProductValidator.cs](Northwind.Business/ValidationRules/FluentValidation/ProductValidator.cs)
 + **Update** - Select a product in the table and the product information will be automatically filled in the update box. After making changes to the product information, click the "Update" button
 + **Delete** - Select a product in the table and click the "Delete" button

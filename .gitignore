@@ -364,4 +364,3 @@ FodyWeavers.xsd
 
 # Presentation files for the README
 Presentation/*
-!Presentation/NLayeredAppDemo.html
