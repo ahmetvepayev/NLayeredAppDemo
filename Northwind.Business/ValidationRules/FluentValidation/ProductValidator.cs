@@ -22,12 +22,14 @@ namespace Northwind.Business.ValidationRules.FluentValidation
             RuleFor(p => p.UnitsInStock).GreaterThanOrEqualTo((short)0);
             RuleFor(p => p.UnitPrice).GreaterThan(10).When(p => p.CategoryId == 2);
 
-            RuleFor(p => p.ProductName).Must(StartsWithA).WithMessage("Urun adi A ile baslamali");
+            //RuleFor(p => p.ProductName).Must(StartsWithA).WithMessage("Urun adi A ile baslamali");
         }
 
+        /*
         private bool StartsWithA(string arg)
         {
             return arg.StartsWith("A");
         }
+        */
     }
 }
