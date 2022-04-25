@@ -5,7 +5,7 @@ Simple Windows Forms application (.NET Framework) showcasing the use of multiple
 + Written on Visual Studio Community 2022 in March 2022
 + ***Note -*** The application UI contains Turkish words. The labels will be rewritten in English when time permits. The labels in this README are written in English with that plan in mind
 
-
+![](https://i.imgur.com/LQDRDcb.gif)
 
 
 
