@@ -21,7 +21,6 @@ Simple Windows Forms application (.NET Framework) showcasing the use of multiple
 + Used Northwind-Pubs sample database from [Microsoft sample SQL databases](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases).
 + Application performs basic CRUD operations on the "Products" and "Catagories" tables in the database
 + Currently, the mapping is done with the help of EntityFramework
-+ ***Note:*** NHibernate support is not implemented. The related class in the solution is placeholder
 
 ![](https://i.imgur.com/oQC11bV.png)
 
