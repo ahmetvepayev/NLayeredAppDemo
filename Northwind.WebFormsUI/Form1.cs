@@ -1,7 +1,6 @@
 ﻿using Northwind.Business.Concrete;
 using Northwind.Business.Abstract;
 using Northwind.DataAccess.Concrete.EntityFramework;
-using Northwind.DataAccess.Concrete.NHibernate;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
